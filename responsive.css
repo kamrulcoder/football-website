@@ -9,9 +9,13 @@ Medium Screen - Others
         font-size: 55px;
     }
 
+    .main-content-item {
+        height: 450px;
+    }
 
-
-
+    .highlights-area {
+        padding: 70px 30px;
+    }
 
 
 
@@ -45,6 +49,9 @@ Small Screen - Tablate
 ====================================
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .sm-menu-area {
+        display: block;
+    }
 
     .menu-nav {
         display: none;
@@ -54,16 +61,28 @@ Small Screen - Tablate
         font-size: 45px;
     }
 
+    .main-content-item p {
+        font-size: 14px;
+    }
+
+    .main-content-item {
+        height: 420px;
+    }
+
+    .highlights-area {
+        padding: 70px 30px;
+    }
 
 
+    .main-content-item {
+        height: 460px;
+    }
 
-
-
-
-
-
-
-
+    .highlights-left h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
 
 
 
@@ -88,61 +107,70 @@ Small Screen - Tablate
 Small Screen - Mobile
 ====================================
 */
-@media screen and (min-width: 576px) and (max-width: 767px) {	
-
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .sm-menu-area {
+        display: block;
+    }
 
     .menu-nav {
         display: none;
     }
-    
+
     .header-article {
         flex-wrap: wrap;
         flex-direction: column;
         padding: 30px 0;
         align-items: inherit;
     }
-    
-    
+
+
     .col-half {
-        max-width: 100%;
+        width: 100%;
     }
-    
+
     .col-4 {
-        max-width: 50%;
+        width: 50%;
     }
-    
+
     .header-article-content h2 {
         font-size: 50px;
         color: #FFF;
     }
-    
-    .header-article-img  {
+
+    .header-article-img {
         margin-top: 50px;
     }
 
     .watch-live-btn a {
         padding: 15px 25px;
-    
-    }    
-    
 
+    }
 
+    .main-content-item {
+        height: 460px;
+    }
 
+    .main-content-item h3 {
+        font-size: 24px;
+    }
 
+    .highlights-area {
+        padding: 50px 20px;
+    }
 
+    .footer-content .footer-logo img {
+        width: 300px;
+    }
 
+    .highlights-area {
+        padding: 30px 20px !important;
+        grid-template-columns: 100%;
 
+    }
 
-
-
-
-
-
-
-
-
-
-
+    .highlights-right {
+        margin-top: 30px;
+    }
 
 
 
@@ -157,54 +185,66 @@ Xtra Small Screen - Small Mobile
 ====================================
 */
 @media screen and (max-width: 576px) {
+    .sm-menu-area {
+        display: block;
+    }
 
-.menu-nav {
-    display: none;
-}
+    .menu-nav {
+        display: none;
+    }
 
-.header-article {
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding: 30px 0;
-    align-items: inherit;
-}
-
-
-.col-half {
-	max-width: 100%;
-}
-
-.col-4 {
-    max-width: 100%;
-}
-
-.header-article-content h2 {
-	font-size: 40px;
-	color: #FFF;
-}
-
-.header-article-img  {
-    margin-top: 50px;
-}
+    .header-article {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 30px 0;
+        align-items: inherit;
+    }
 
 
+    .col-half {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .header-article-content h2 {
+        font-size: 40px;
+        color: #FFF;
+    }
+
+    .header-article-img {
+        margin-top: 50px;
+    }
 
 
+    .footer-content .footer-logo img {
+        width: 300px;
+    }
 
+    .highlights-area {
+        padding: 20px 20px !important;
+        grid-template-columns: 100%;
 
+    }
 
+    .highlights-right {
+        margin-top: 30px;
+    }
 
+    .highlights-left {
+        margin-right: 0px;
+    }
 
+    .highlights-left h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
 
-
-
-
-
-
-
-
-
-
+    .contact-form {
+        padding: 10px;
+    }
 
 
 
